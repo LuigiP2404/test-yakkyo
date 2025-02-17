@@ -2,10 +2,12 @@
   "name": "code-challenge",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://luigip2404.github.io/Weather-Yakkyo",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "axios": "^1.7.9",
